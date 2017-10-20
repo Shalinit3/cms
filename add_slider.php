@@ -9,7 +9,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://cdn.ckeditor.com/4.7.3/standard/ckeditor.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -17,24 +17,17 @@
 <body>
 <div>
     <?php include("include/header.php");
-          include("include/sidebar.php");?>
+    include("include/sidebar.php");?>
     <article class="container-fluid" id="main-container">
         <section>
             <div class="panel panel-default">
                 <div class="panel-body">
-                    Add About Us
-                    <form action="control/add_about.php" method="post" >
-                        <div class="form-group">
-                            <label>Heading</label>
-                            <input type="text" class="form-control" id="heading" name="heading" />
-                        </div>
-                        <div class="form-group">
-                            <label>Description</label>
-                            <textarea name="desc"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-default" name="submit" value="submit">Submit</button>
-
+                    Add Slider Image
+                    <form action="control/add_slider.php" method="post" enctype="multipart/form-data">
+                        Select image to upload:
+                        <input type="file" name="fileToUpload" id="fileToUpload">
+                        <img id="preview" src="#"  style="height:100px;width:100px" />
+                        <input type="submit" value="Upload Image" name="submit">
                     </form>
                 </div>
             </div>
@@ -43,19 +36,12 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <div class="row">
-                        <?php $about= mysqli_query($con,"Select * from `about` ");
-                        while($data=mysqli_fetch_array($about)) { ?>
+                        <?php $logo= mysqli_query($con,"Select * from `slider` ");
+                        while($data=mysqli_fetch_array($logo)) { ?>
                             <div class="col-md-3">
-                               <p> <?php echo $data['heading']; ?> </p>
+                                <img src="control/<?php echo $data['image']; ?>"  />
+                                <a href="control/delete.php?id=<?php echo $data['id']; ?>&table=slider" >Delete</a>
                             </div>
-                            <div class="col-md-8">
-                                <p> <?php echo $data['about']; ?> </p>
-                            </div>
-                            <div class="col-md-1">
-                                <p> <?php echo $data['status']; ?> </p>
-                                <a href="control/delete.php?id=<?php echo $data['id']; ?>&table=about" >Delete</a>
-                            </div>
-
                         <?php } ?>
                     </div>
                 </div>
@@ -64,7 +50,22 @@
     </article>
 </div>
 <script>
-    CKEDITOR.replace( 'desc' );
+    function readURL(input) {
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+                $('#preview').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $("#fileToUpload").change(function() {
+        readURL(this);
+    });
 </script>
 
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
@@ -73,7 +74,6 @@
         crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
