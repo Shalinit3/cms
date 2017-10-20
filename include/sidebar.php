@@ -20,9 +20,9 @@
                 </a>
             </li>
             <li class="sub-menu">
-                <a>
+                <a href="add_about.php">
                     <i class="fa fa-dashboard"></i>
-                    <span>Inventory</span>
+                    <span>Manage About Us</span>
                 </a>
             </li>
             <li class="sub-menu parent-li">
