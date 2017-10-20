@@ -43,7 +43,7 @@ header a.logo{
 }
 
 header a.logo b{
-    font-weight: 900;
+    font-weight: 400;
     color:#f2f2f2;
 }
 
@@ -102,6 +102,7 @@ aside #sidebar ul.sidebar-menu{
     margin-top: 75px;
     padding: 0px;
 }
+
 aside #sidebar ul.sub{
     display: none;
     margin: -2px 0 0;
@@ -190,8 +191,9 @@ aside #sidebar ul.sidebar-menu li.sub-menu{
     line-height: 15px;
 }
 
-article{
+article#main-container{
     margin-left: 210px;
-    padding-top: 50px;
+    padding: 0px;
+    padding-top: 60px;
     background-color: #eeeeee;
 }
