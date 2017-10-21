@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35606fa5-60f0-4007-a32d-5ab52e30e280" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cms.iml" afterPath="$PROJECT_DIR$/.idea/cms.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/add_gallery.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_logo.php" afterPath="$PROJECT_DIR$/add_logo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/delete.php" afterPath="$PROJECT_DIR$/control/delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/sidebar.php" afterPath="$PROJECT_DIR$/include/sidebar.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,24 +27,43 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="add_slider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/add_slider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="236" column="17" lean-forward="false" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="24">
+              <caret line="40" column="28" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="115" />
+              <folding>
+                <marker date="1508536201627" expanded="true" signature="1678:1700" ph="Select * fro... slider" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_logo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_logo.php">
+      <file leaf-file-name="add_gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add_gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+            <state relative-caret-position="525">
+              <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="53" />
               <folding>
-                <marker date="1508598372452" expanded="true" signature="2727:2747" ph="Select * fro... logo" />
+                <marker date="1508540610389" expanded="true" signature="1676:1699" ph="Select * fro... gallery" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <marker date="1508540657686" expanded="true" signature="122:144" ph="Select * fro... slider" />
+                <marker date="1508540657686" expanded="true" signature="122:161" ph="Select * fro... slider" />
+                <marker date="1508540657686" expanded="true" signature="216:253" ph="delete from " />
+                <marker date="1508540657686" expanded="true" signature="399:439" ph="Select * fro... gallery" />
+                <marker date="1508540657686" expanded="true" signature="494:532" ph="delete from " />
+                <marker date="1508540657686" expanded="true" signature="652:688" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -61,18 +80,19 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/include/header.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/control/add_logo/.php" />
         <option value="$PROJECT_DIR$/control/core.php" />
         <option value="$PROJECT_DIR$/control/add_logo.php" />
+        <option value="$PROJECT_DIR$/add_logo.php" />
         <option value="$PROJECT_DIR$/control/add_about.php" />
         <option value="$PROJECT_DIR$/control/add_slider.php" />
-        <option value="$PROJECT_DIR$/include/sidebar.php" />
         <option value="$PROJECT_DIR$/add_slider.php" />
-        <option value="$PROJECT_DIR$/control/delete.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/add_about.php" />
-        <option value="$PROJECT_DIR$/add_logo.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/control/add_gallery.php" />
+        <option value="$PROJECT_DIR$/include/sidebar.php" />
+        <option value="$PROJECT_DIR$/add_gallery.php" />
+        <option value="$PROJECT_DIR$/control/delete.php" />
       </list>
     </option>
   </component>
@@ -115,7 +135,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,17 +154,13 @@
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.index.php">
+  <component name="RunManager" selected="PHPUnit.cms">
     <configuration name="cms" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$" />
     </configuration>
@@ -181,8 +196,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.cms" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.cms" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.index.php" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -198,10 +213,8 @@
       <option name="presentableId" value="Default" />
       <updated>1508506124543</updated>
       <workItem from="1508506125992" duration="1197000" />
-      <workItem from="1508514812612" duration="17457000" />
-      <workItem from="1508581172807" duration="180000" />
-      <workItem from="1508581423546" duration="4895000" />
-      <workItem from="1508594725675" duration="3243000" />
+      <workItem from="1508514812612" duration="20469000" />
+      <workItem from="1508589962187" duration="2089000" />
     </task>
     <servers />
   </component>
@@ -221,21 +234,35 @@
     <history-entry file="cms - 2017.10.21 at 02h 56m 04s.xml">
       <configuration name="cms" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="cms - 2017.10.21 at 18h 31m 49s.xml">
+      <configuration name="cms" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="cms - 2017.10.21 at 18h 32m 11s.xml">
+      <configuration name="cms" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="cms - 2017.10.21 at 18h 33m 10s.xml">
+      <configuration name="cms" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="cms - 2017.10.21 at 18h 34m 21s.xml">
+      <configuration name="cms" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="cms - 2017.10.21 at 18h 34m 33s.xml">
+      <configuration name="cms" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26972000" />
+    <option name="totallyTimeSpent" value="23755000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="40" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17951483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2962578" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22749326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22760417" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2962578" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -282,49 +309,49 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/add_slider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_logo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="67" />
           <folding>
-            <marker date="1508598372452" expanded="true" signature="2727:2747" ph="Select * fro... logo" />
+            <marker date="1508536201627" expanded="true" signature="1678:1700" ph="Select * fro... slider" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/add_gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="115" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="115" />
-          <folding />
+        <state relative-caret-position="525">
+          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <marker date="1508540610389" expanded="true" signature="1676:1699" ph="Select * fro... gallery" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/control/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1508540657686" expanded="true" signature="122:144" ph="Select * fro... slider" />
+            <marker date="1508540657686" expanded="true" signature="122:161" ph="Select * fro... slider" />
+            <marker date="1508540657686" expanded="true" signature="216:253" ph="delete from " />
+            <marker date="1508540657686" expanded="true" signature="399:439" ph="Select * fro... gallery" />
+            <marker date="1508540657686" expanded="true" signature="494:532" ph="delete from " />
+            <marker date="1508540657686" expanded="true" signature="652:688" ph="delete from " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d108a812-29fd-4841-ba67-ef60b7a26efc/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d108a812-29fd-4841-ba67-ef60b7a26efc/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -337,7 +364,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -350,19 +383,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/control/add_slider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-191">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1508534580203" expanded="true" signature="1417:1483" ph="INSERT INTO `slider`... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -370,64 +397,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="99" lean-forward="false" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/control/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="42" column="115" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/control/add_logo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1508532464942" expanded="true" signature="130:207" ph="INSERT into `about`... " />
+            <marker date="1508532464942" expanded="true" signature="136:207" ph="insert into `about`... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/add_about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="699">
+          <caret line="55" column="101" lean-forward="false" selection-start-line="55" selection-start-column="101" selection-end-line="55" selection-end-column="101" />
+          <folding>
+            <marker date="1508536523246" expanded="true" signature="1884:1905" ph="Select * fro... about" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/add_logo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+        <state relative-caret-position="105">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="7" />
           <folding>
-            <marker date="1508598372452" expanded="true" signature="2727:2747" ph="Select * fro... logo" />
+            <marker date="1508528576793" expanded="true" signature="1674:1694" ph="Select * fro... logo" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/control/add_logo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="236" column="17" lean-forward="false" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="161">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1508527150858" expanded="true" signature="1417:1479" ph="INSERT INTO `logo`... " />
+            <marker date="1508527150858" expanded="true" signature="1423:1479" ph="insert into `logo`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/add_gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+          <folding>
+            <marker date="1508540013451" expanded="true" signature="1418:1483" ph="INSERT INTO `gallery`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1508540657686" expanded="true" signature="122:144" ph="Select * fro... slider" />
+            <marker date="1508540657686" expanded="true" signature="122:161" ph="Select * fro... slider" />
+            <marker date="1508540657686" expanded="true" signature="216:253" ph="delete from " />
+            <marker date="1508540657686" expanded="true" signature="399:439" ph="Select * fro... gallery" />
+            <marker date="1508540657686" expanded="true" signature="494:532" ph="delete from " />
+            <marker date="1508540657686" expanded="true" signature="652:688" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <marker date="1508540610389" expanded="true" signature="1676:1699" ph="Select * fro... gallery" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="115" />
+          <folding>
+            <marker date="1508536201627" expanded="true" signature="1678:1700" ph="Select * fro... slider" />
+          </folding>
         </state>
       </provider>
     </entry>

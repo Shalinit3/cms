@@ -31,6 +31,12 @@
                     <span>Manage Slider</span>
                 </a>
             </li>
+            <li class="sub-menu">
+                <a href="add_gallery.php">
+                    <i class="fa fa-dashboard"></i>
+                    <span>Manage Gallery Image</span>
+                </a>
+            </li>
         </ul>
     </div>
 </aside>
