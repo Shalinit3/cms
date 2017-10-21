@@ -1,7 +1,7 @@
 ::selection {
     background: #4ECDC4;
     color: #fff;
-    }
+}
 header.black-bg{
     background: #22242a;
     border-bottom: 1px solid #393d46
@@ -82,6 +82,8 @@ header ul.top-menu li a.logout:hover{
 aside{
     background-color: #797979;
     font-size: 14px;
+    z-index: 222;
+    position: absolute;
     -webkit-transition: all 1s ease-in;
     -moz-transition: all 1s ease-in;
     transition: all 1s ease-in;
@@ -122,7 +124,7 @@ aside #sidebar ul.sub{
 aside #sidebar ul.sidebar-menu p a{
     text-decoration: none;
     outline: none;
-} 
+}
 
 aside #sidebar ul.sidebar-menu h5{
     color: #f2f2f2;
@@ -193,7 +195,93 @@ aside #sidebar ul.sidebar-menu li.sub-menu{
 
 article#main-container{
     margin-left: 210px;
-    padding: 0px;
+    padding: 15px;
     padding-top: 60px;
-    background-color: #eeeeee;
+    background-color: #F7F7F6;
 }
+
+@media only screen and (max-width: 760px) {
+    article#main-container{
+        margin-left: 0px;
+    }
+}
+
+#add_logo_container{
+    min-height: 90vh;
+}
+
+#add_logo{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 60px auto;
+    border: 1px solid #eee;
+    box-shadow:15px 38px 36px -2px hsla(0, 0%, 70%, .14);
+}
+
+#add_logo input[type="file"]#fileToUpload {
+    display: none;
+}
+
+#add_logo #preview-container{
+    width: 220px;
+    height: 220px;
+    margin: auto;
+}
+#add_logo .button-container{
+    padding: 10px 0px;
+}
+
+#add_logo #img-scroll .col-md-4{
+    padding: 10px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 250px;
+
+}
+
+#add_logo #img-scroll .col-md-4 .img-container{
+    border: .5px solid #eeeeee;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow:10px 16px 16px -2px hsla(0, 0%, 70%, .14);
+}
+
+#add_logo #img-scroll .col-md-4 .img-container img{
+    width: 80%;
+    height: 80%;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#add_logo #img-scroll .col-md-4 img + div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 15, 8, 0.68);
+    display: none;
+}
+#add_logo #img-scroll .col-md-4 img + div i{
+    padding: 10px 16px;
+    margin-top: 25px;
+    background-color: #ffffff;
+    color: rgba(241, 15, 8, 0.68) ;
+    border-radius: 30px;
+}
+
+#add_logo #img-scroll .col-md-4 img:hover + div{
+    display: inline-block;
+}
+#add_logo #img-scroll .col-md-4 img:hover{
+    position: absolute;
+    opacity: .1;
+}
+
+
